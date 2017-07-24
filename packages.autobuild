@@ -1,1 +1,1 @@
-custom_package "universe/tutorial_publisher"
+import_package "universe/tutorial_publisher"
