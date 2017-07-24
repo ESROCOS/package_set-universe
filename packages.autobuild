@@ -1,1 +1,1 @@
-cmake_package "universe/tutorial_publisher"
+custom_package "universe/tutorial_publisher"
