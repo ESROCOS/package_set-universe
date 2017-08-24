@@ -1,1 +1,2 @@
-import_package "universe/tutorial_publisher"
+cmake_package "universe/tutorial_motion_producer"
+cmake_package "universe/tutorial_image_display"
