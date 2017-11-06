@@ -1,6 +1,9 @@
 name: esrocos.universe
+
 version_control:
+
 - github: ESROCOS/tutorial_motion_producer
   universe/tutorial_motion_producer: null
+  
 - github: ESROCOS/tutorial_image_display
   universe/tutorial_image_display: null
