@@ -1,2 +1,2 @@
-cmake_package "universe/tutorial_motion_producer"
+cmake_package "universe/tutorial_driver"
 cmake_package "universe/tutorial_image_display"
