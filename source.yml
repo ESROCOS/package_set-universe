@@ -1,9 +1,8 @@
 name: esrocos.universe
-
 version_control:
-
 - github: ESROCOS/tutorial_driver
   universe/tutorial_driver: null
-  
+- github: ESROCOS/tutorial_consumer
+  universe/tutorial_consumer: null
 - github: ESROCOS/tutorial_image_display
   universe/tutorial_image_display: null
