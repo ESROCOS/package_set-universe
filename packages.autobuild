@@ -1,3 +1,4 @@
 cmake_package "universe/tutorial_driver"
 cmake_package "universe/tutorial_image_display"
 cmake_package "universe/tutorial_consumer"
+cmake_package "universe/tutorial_camera"
