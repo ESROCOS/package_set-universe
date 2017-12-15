@@ -6,3 +6,5 @@ version_control:
   universe/tutorial_consumer: null
 - github: ESROCOS/tutorial_image_display
   universe/tutorial_image_display: null
+- github: ESROCOS/tutorial_camera
+  universe/tutorial_camera: null
