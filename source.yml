@@ -3,3 +3,5 @@ version_control:
 
   -  tutorial/driver:
      github: esrocos/tutorial-driver
+  -  tutorial/cam_capture:
+     github: esrocos/tutorial-cam_capture
