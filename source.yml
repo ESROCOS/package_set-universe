@@ -1,3 +1,5 @@
 name: esrocos.universe
 version_control:
 
+  -  tutorial/driver:
+     github: esrocos/tutorial-driver
