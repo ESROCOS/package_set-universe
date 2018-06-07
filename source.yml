@@ -5,3 +5,6 @@ version_control:
      github: esrocos/tutorial-driver
   -  tutorial/cam_capture:
      github: esrocos/tutorial-cam_capture
+  
+  -  plex/teleops
+     github: esrocos/plex-teleops

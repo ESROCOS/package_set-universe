@@ -1,2 +1,3 @@
 cmake_package "tutorial/driver"
 cmake_package "tutorial/cam_capture"
+cmake_package "plex/teleops"
