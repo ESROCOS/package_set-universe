@@ -6,5 +6,9 @@ version_control:
   -  tutorial/cam_capture:
      github: esrocos/tutorial-cam_capture
   
-  -  plex/teleops
+  -  plex/teleops:
      github: esrocos/plex-teleops
+  -  plex/mini_demo:
+     github: esrocos/plex-mini_demo
+  -  plex/visualizer:
+     github: esrocos/plex-visualizer
