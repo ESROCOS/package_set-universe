@@ -8,6 +8,9 @@ version_control:
   -  tutorial/transformer:
      github: esrocos/tutorial-transformer
   
+  
+  -  plex/odometry:
+     github: esrocos/plex-odometry
   -  plex/teleops:
      github: esrocos/plex-teleops
   -  plex/mini_demo:
