@@ -7,16 +7,13 @@ version_control:
      github: esrocos/tutorial-cam_capture
   -  tutorial/transformer:
      github: esrocos/tutorial-transformer
-  
-  
-  -  plex/odometry:
-     github: esrocos/plex-odometry
+   
   -  plex/teleops:
      github: esrocos/plex-teleops
-  -  plex/mini_demo:
-     github: esrocos/plex-mini_demo
-  -  plex/visualizer:
-     github: esrocos/plex-visualizer
+     
+  -  plex/blsclient:
+     github: esrocos/plex-blsclient
+     
   -  tools/dispatchers:
      github: esrocos/tools-dispatchers
   -  gr740/round_trip_time:
