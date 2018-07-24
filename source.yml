@@ -10,9 +10,10 @@ version_control:
    
   -  plex/teleops:
      github: esrocos/plex-teleops
-     
   -  plex/blsclient:
      github: esrocos/plex-blsclient
+  -  plex/pose_visualisation:
+     github: esrocos/plex-pose_visualisation
      
   -  tools/dispatchers:
      github: esrocos/tools-dispatchers
