@@ -19,3 +19,11 @@ version_control:
      github: esrocos/plex-visualizer
   -  tools/dispatchers:
      github: esrocos/tools-dispatchers
+  -  gr740/round_trip_time:
+     github: esrocos/gr740-round_trip_time
+  -  gr740/candriver:
+     github: esrocos/gr740-candriver
+  -  types/controldev:
+     github: esrocos/types-controldev
+  -  drivers/taste/controldev:
+     github: esrocos/drivers-taste-controldev

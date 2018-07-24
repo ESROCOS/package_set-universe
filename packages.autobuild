@@ -7,3 +7,11 @@ cmake_package "plex/teleops"
 cmake_package "plex/visualizer"
 cmake_package "plex/mini_demo"
 esrocos_package "tools/dispatchers"
+esrocos_package "gr740/round_trip_time"
+esrocos_package "gr740/candriver" do |pkg|
+    if(ENV.has_key?('ESROCOS_RTEMS_TARGET'))
+        Esrocos.build_rtems_gailser(pkg, ENV['ESROCOS_RTEMS_TARGET'])
+    end
+end
+cmake_package "types/controldev"
+esrocos_package "drivers/taste/controldev"
