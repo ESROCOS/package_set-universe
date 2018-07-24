@@ -17,3 +17,5 @@ version_control:
      github: esrocos/plex-mini_demo
   -  plex/visualizer:
      github: esrocos/plex-visualizer
+  -  tools/dispatchers:
+     github: esrocos/tools-dispatchers
