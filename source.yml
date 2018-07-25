@@ -29,3 +29,5 @@ version_control:
      github: esrocos/tools-data_logger
   -  tools/data_logger_components:
      github: esrocos/tools-data_logger_components
+  -  perception/aruco_marker_detection:
+     github: esrocos/perception-aruco_marker_detection

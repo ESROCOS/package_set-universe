@@ -17,3 +17,5 @@ esrocos_package "drivers/taste/controldev"
 cmake_package "tools/data_logger"
 esrocos_package "tools/data_logger_components"
 esrocos_package "plex/pose_visualisation"
+esrocos_package "perception/aruco_marker_detection"
+
