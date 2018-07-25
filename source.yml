@@ -26,3 +26,5 @@ version_control:
      github: esrocos/drivers-taste-controldev
   -  tools/data_logger:
      github: esrocos/tools-data_logger
+  -  tools/data_logger_components:
+     github: esrocos/tools-data_logger_components

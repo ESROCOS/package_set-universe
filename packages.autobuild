@@ -15,3 +15,4 @@ end
 cmake_package "types/controldev"
 esrocos_package "drivers/taste/controldev"
 cmake_package "tools/data_logger"
+esrocos_package "tools/data_logger_components"
