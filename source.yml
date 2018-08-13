@@ -14,7 +14,10 @@ version_control:
      github: esrocos/plex-blsclient
   -  plex/pose_visualisation:
      github: esrocos/plex-pose_visualisation
-     
+  -  plex/transformer:
+     github: esrocos/plex-transformer
+  -  tools/debugcomponents:
+     github: esrocos/tools-debugcomponents
   -  tools/dispatchers:
      github: esrocos/tools-dispatchers
   -  gr740/round_trip_time:

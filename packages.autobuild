@@ -4,6 +4,8 @@ cmake_package "tutorial/transformer"
 
 cmake_package "plex/blsclient"
 cmake_package "plex/teleops"
+cmake_package "plex/transformer"
+cmake_package "tools/debugcomponents"
 
 esrocos_package "tools/dispatchers"
 esrocos_package "gr740/round_trip_time"
