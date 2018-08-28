@@ -24,6 +24,8 @@ version_control:
      github: esrocos/gr740-round_trip_time
   -  gr740/candriver:
      github: esrocos/gr740-candriver
+  -  gr740/stream_aligner:
+     github: esrocos/gr740-stream_aligner
   -  types/controldev:
      github: esrocos/types-controldev
   -  drivers/taste/controldev:

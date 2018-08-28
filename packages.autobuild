@@ -14,6 +14,11 @@ esrocos_package "gr740/candriver" do |pkg|
         Esrocos.build_rtems_gailser(pkg, ENV['ESROCOS_RTEMS_TARGET'])
     end
 end
+esrocos_package "gr740/stream_aligner" do |pkg|
+    if(ENV.has_key?('ESROCOS_RTEMS_TARGET'))
+        Esrocos.build_rtems_gailser(pkg, ENV['ESROCOS_RTEMS_TARGET'])
+    end
+end
 cmake_package "types/controldev"
 esrocos_package "drivers/taste/controldev"
 cmake_package "tools/data_logger"
