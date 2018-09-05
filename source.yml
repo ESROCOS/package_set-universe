@@ -8,6 +8,8 @@ version_control:
   -  tutorial/transformer:
      github: esrocos/tutorial-transformer
    
+  -  plex/demonstrator:
+     github: esrocos/demonstrator-planetary_exploration
   -  plex/teleops:
      github: esrocos/plex-teleops
   -  plex/blsclient:
@@ -16,10 +18,7 @@ version_control:
      github: esrocos/plex-pose_visualisation
   -  plex/transformer:
      github: esrocos/plex-transformer
-  -  tools/debug_components:
-     github: esrocos/tools-debug_components
-  -  tools/dispatchers:
-     github: esrocos/tools-dispatchers
+     
   -  gr740/round_trip_time:
      github: esrocos/gr740-round_trip_time
   -  gr740/candriver:
@@ -28,11 +27,18 @@ version_control:
      github: esrocos/gr740-stream_aligner
   -  types/controldev:
      github: esrocos/types-controldev
+     
   -  drivers/taste/controldev:
      github: esrocos/drivers-taste-controldev
+     
   -  tools/data_logger:
      github: esrocos/tools-data_logger
   -  tools/data_logger_components:
      github: esrocos/tools-data_logger_components
+  -  tools/debug_components:
+     github: esrocos/tools-debug_components
+  -  tools/dispatchers:
+     github: esrocos/tools-dispatchers
+     
   -  perception/aruco_marker_detection:
      github: esrocos/perception-aruco_marker_detection
