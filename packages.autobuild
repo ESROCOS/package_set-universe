@@ -2,9 +2,12 @@ cmake_package "tutorial/driver"
 cmake_package "tutorial/cam_capture"
 cmake_package "tutorial/transformer"
 
+cmake_package "plex/demonstrator"
 cmake_package "plex/blsclient"
 cmake_package "plex/teleops"
 cmake_package "plex/transformer"
+
+
 cmake_package "tools/debug_components"
 
 esrocos_package "tools/dispatchers"
