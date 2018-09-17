@@ -2,12 +2,22 @@ cmake_package "tutorial/driver"
 cmake_package "tutorial/cam_capture"
 cmake_package "tutorial/transformer"
 
+cmake_package "plex/demonstrator"
 cmake_package "plex/blsclient"
 cmake_package "plex/teleops"
+cmake_package "plex/transformer"
+
+
+cmake_package "tools/debug_components"
 
 esrocos_package "tools/dispatchers"
 esrocos_package "gr740/round_trip_time"
 esrocos_package "gr740/candriver" do |pkg|
+    if(ENV.has_key?('ESROCOS_RTEMS_TARGET'))
+        Esrocos.build_rtems_gailser(pkg, ENV['ESROCOS_RTEMS_TARGET'])
+    end
+end
+esrocos_package "gr740/stream_aligner" do |pkg|
     if(ENV.has_key?('ESROCOS_RTEMS_TARGET'))
         Esrocos.build_rtems_gailser(pkg, ENV['ESROCOS_RTEMS_TARGET'])
     end
