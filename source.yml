@@ -9,9 +9,11 @@ version_control:
      github: esrocos/tutorial-transformer
   -  tutorial/plex:
      github: esrocos/tutorial-plex  
-   
-  -  plex/demonstrator:
-     github: esrocos/demonstrator-planetary_exploration
+
+  -  plex/demonstrator/record:
+     github: esrocos/plex-demonstrator-record   
+  -  plex/demonstrator/replay:
+     github: esrocos/demonstrator-planetary_exploration-replay
   -  plex/teleops:
      github: esrocos/plex-teleops
   -  plex/blsclient:
