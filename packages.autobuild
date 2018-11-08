@@ -1,6 +1,7 @@
 cmake_package "tutorial/driver"
 cmake_package "tutorial/cam_capture"
 cmake_package "tutorial/transformer"
+cmake_package "tutorial/plex"
 
 cmake_package "plex/demonstrator"
 cmake_package "plex/blsclient"
