@@ -50,3 +50,5 @@ version_control:
      github: esrocos/control-mc_watchdog
   -  plex/mc_watchdog:
      github: esrocos/plex-mc_watchdog
+  -  plex/fake_rover_lib:
+     github: esrocos/plex-fake_rover_lib

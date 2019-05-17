@@ -32,6 +32,7 @@ esrocos_package "plex/pose_visualisation"
 esrocos_package "perception/aruco_marker_detection"
 cmake_package "control/mc_watchdog"
 esrocos_package "plex/mc_watchdog"
+esrocos_package "plex/fake_rover_lib"
 
 
 
